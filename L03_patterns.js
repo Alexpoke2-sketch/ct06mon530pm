@@ -26,7 +26,7 @@ function draw() {
      if(colourValue %2 ---0){
        fill(0)
      }else{
-      
+      fill(255);
      }
 
   }
