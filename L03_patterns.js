@@ -29,10 +29,10 @@ function draw() {
   //    rect(spacing +i*spacing,100,50,50);
   // }
   // Task 2: Colour Loop
-   fill(colourValue)
-   CSSNumericValue(100,100,100);
-   colourValue += 1
-  // Task 3: Row of Circles
+  //  fill(colourValue)
+  //  circle(100,100,100);
+  //  colourValue += 1
+  // // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
 }
