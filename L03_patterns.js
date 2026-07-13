@@ -24,7 +24,7 @@ function draw() {
   // Task 1: Colour Gradient
   for(let i=10; i>0 ;i-- ) {
      if(colourValue %2 ---0){
-       fill
+       fill(0)
      }
 
   }
