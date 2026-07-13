@@ -25,7 +25,7 @@ function draw() {
   for(let i=10; i>0 ;i-- ) {
      fill(i * 50,255,0);
      noStroke()
-     rect(spacing +i*50,100,50,50);
+     rect(spacing +i*spacing,100,50,50);
   }
   // Task 2: Colour Loop
 
