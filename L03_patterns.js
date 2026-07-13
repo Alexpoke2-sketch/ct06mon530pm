@@ -9,7 +9,7 @@ function draw() {
   circle(75,200,100)
   fill(220)
   circle(225,200,100)
-  fill(0,220)
+  fill(0,0,220)
   circle(375,200,100)
   fill(0,0,0)
   circle(525,200,100)
