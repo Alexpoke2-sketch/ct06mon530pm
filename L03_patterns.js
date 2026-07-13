@@ -6,6 +6,7 @@ function setup() {
   
 function draw() {
   // Recap 1: Repeating Circles
+  fill
   circle(75,200,100)
   fill(225)
   circle(225,200,100)
