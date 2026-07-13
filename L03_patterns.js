@@ -16,7 +16,7 @@ function draw() {
   // circle(525,200,100);
   for ( let i = 0; i < 5; i++) {
       fill(100 + i * 50,255,255);
-      nostroke
+      noStroke()
       circle(50 + i * 50, 100,40);
   }
 
