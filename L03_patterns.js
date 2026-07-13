@@ -30,6 +30,7 @@ function draw() {
   // }
   // Task 2: Colour Loop
    fill(colourValue)
+   circle
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
