@@ -22,15 +22,15 @@ function draw() {
   // }
 
   // Task 1: Colour Gradient
-  for(let i=10; i>0 ;i-- ) {
-     if(colourValue %2 ---0){
-       fill(0);
-     }else{
-      fill(255);
-     }
-     circle(50+i*50,100,50);
-    colourvalue += 1;
-  }
+  // for(let i=10; i>0 ;i-- ) {
+  //    if(colourValue %2 ---0){
+  //      fill(0);
+  //    }else{
+  //     fill(255);
+  //    }
+  //    circle(50+i*50,100,50);
+  //   colourvalue += 1;
+  // }
   // Task 2: Colour Loop
   //  fill(colouValue)
   //  circle(100,100,100);
@@ -38,4 +38,5 @@ function draw() {
   // // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
+  
 }
