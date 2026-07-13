@@ -28,7 +28,7 @@ function draw() {
   //    rect(spacing +i*spacing,100,50,50);
   // }
   // Task 2: Colour Loop
-   FileList()
+   fill(colour)
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
