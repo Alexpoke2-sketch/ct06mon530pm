@@ -21,6 +21,7 @@ function draw() {
   // }
 
   // Task 1: Colour Gradient
+  let spacing = 50;
   for(let i=10; i>0 ;i-- ) {
      fill(i * 50,255,0);
      noStroke()
