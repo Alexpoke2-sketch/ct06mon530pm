@@ -28,7 +28,7 @@ function draw() {
      }else{
       fill(255);
      }
-     CSSNumericValue(50+i)
+     CSSNumericValue(50+i*50,100,50)
   }
   // Task 2: Colour Loop
   //  fill(colouValue)
