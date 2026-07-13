@@ -23,8 +23,11 @@ function draw() {
 
   // Task 1: Colour Gradient
   for(let i=10; i>0 ;i-- ) {
+     if(colourValue %2 ---0){
+      
+     }
 
-  // }
+  }
   // Task 2: Colour Loop
   //  fill(colouValue)
   //  circle(100,100,100);
