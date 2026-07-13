@@ -22,7 +22,7 @@ function draw() {
 
   // Task 1: Colour Gradient
   for(let i=10; i>0 ;i-- ) {
-     fill(i * 255,255,255);
+     fill(i * 255,0,0);
      noStroke()
      rect(50+i*50,100,50,50);
   }
