@@ -29,7 +29,7 @@ function draw() {
       fill(255);
      }
      circle(50+i*50,100,50);
-    colourvalue
+    colourvalue += 1;
   }
   // Task 2: Colour Loop
   //  fill(colouValue)
