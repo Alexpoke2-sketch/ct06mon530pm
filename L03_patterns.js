@@ -28,7 +28,6 @@ function draw() {
   //    rect(spacing +i*spacing,100,50,50);
   // }
   // Task 2: Colour Loop
-  let colourValue
    fill(colourValue)
   // Task 3: Row of Circles
 
