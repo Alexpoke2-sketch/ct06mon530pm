@@ -42,5 +42,5 @@ function draw() {
   let numCircles = 5;
   let totalWidth =numCircles * circleDiameter;
   let startX = (Width - totalWidth) / 2 +cicleDiameter / 2
-  let startY
+  let startY = 
 }
