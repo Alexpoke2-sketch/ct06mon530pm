@@ -21,12 +21,12 @@ function draw() {
   // }
 
   // Task 1: Colour Gradient
-  let spacing = 50;
-  for(let i=10; i>0 ;i-- ) {
-     fill(i * 50,255,0);
-     noStroke()
-     rect(spacing +i*spacing,100,50,50);
-  }
+  // let spacing = 50;
+  // for(let i=10; i>0 ;i-- ) {
+  //    fill(i * 50,255,0);
+  //    noStroke()
+  //    rect(spacing +i*spacing,100,50,50);
+  // }
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
