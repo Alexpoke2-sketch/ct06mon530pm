@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(400, 200);
     background(220);
     noLoop(); // Stops continuous drawing
   }
@@ -14,14 +14,14 @@ function draw() {
   // circle(375,200,100);
   // fill(225,0,0);
   // circle(525,200,100);
-  for ( let i = 0; i < 5; i++) {
-      fill(100 + i * 50,255,255);
-      noStroke()
-      circle(50 + i * 50, 100,40);
-  }
+  // for ( let i = 0; i < 5; i++) {
+  //     fill(100 + i * 50,255,255);
+  //     noStroke();
+  //     circle(50 + i * 50, 100,40);
+  // }
 
   // Task 1: Colour Gradient
-
+  
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
