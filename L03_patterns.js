@@ -25,6 +25,8 @@ function draw() {
   for(let i=10; i>0 ;i-- ) {
      if(colourValue %2 ---0){
        fill(0)
+     }else{
+      
      }
 
   }
