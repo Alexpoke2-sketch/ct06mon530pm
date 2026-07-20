@@ -1,4 +1,4 @@
-let shaprColour
+let shaprColour = 'blue';
 function setup() {    
     createCanvas(400, 400);
     background(220);
