@@ -22,7 +22,7 @@ function mousePressed(){
     x2 = random(400);
     y2 = random(400);
     x3 = random(400);
-    x = random(400);
+    y3 = random(400);
 }
 function mouseReleased(){
     shapeColour = 'white';
