@@ -14,8 +14,8 @@ function draw() {
     circle(200,200,300)
 }
 function mousePressed(){
-    shapeColour = random(0,255);
+    shapeColour = colour(random(0,255),random(255),random(255));
 }
 function mouseReleased(){
-    shapeColour = 'White';
+    shapeColour = 'white';
 }
