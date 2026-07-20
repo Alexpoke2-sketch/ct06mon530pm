@@ -41,7 +41,7 @@ function draw() {
   let diameter = 30;
   let numCircle = 5;
   let totalWidth = numCircle * diameter;
-  // Calculate starting x for centering
+  let startX 
    let startX = (width - totalWidth) / 2 + circleDiameter / 2;
 
    for (let i = 0; i < numCircles; i++) {
