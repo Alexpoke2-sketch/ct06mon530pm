@@ -43,6 +43,7 @@ function draw() {
   let totalWidth = numCircle * diameter;
   let startY = diameter/2;
   let startX = diameter/2;
+  
   for(let i=0;i<numCircle;row++) {
      let rowY = startY + (diameter * row);
   
