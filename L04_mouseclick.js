@@ -1,6 +1,5 @@
 let shapeColour = 'blue';
-let x1,y1,x2,y2,x3,y3
-let isshape
+let x1,y1,x2,y2,x3,y3;
 function setup() {    
     createCanvas(400, 400);
     background(220);
