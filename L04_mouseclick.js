@@ -10,7 +10,7 @@ function draw() {
     // }  
 
     //Task 1: Random Colour Preview
-    fill(shape)
+    fill(shapeColour)
       circle(200,200,400)
 }
 function mousePressed(){
