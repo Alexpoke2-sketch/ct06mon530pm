@@ -15,6 +15,7 @@ function draw() {
     // circle(200,200,300)
     triangle(x1,y1,x2,y2,x3,y3);
 }
+function mouseMoved(){}
 function mousePressed(){
     shapeColour = color(random(0,255),random(255),random(255));
     x1 = random(400);
