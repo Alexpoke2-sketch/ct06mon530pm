@@ -1,5 +1,5 @@
-function setup() {
-    
+let shapr
+function setup() {    
     createCanvas(400, 400);
     background(220);
 }
