@@ -40,14 +40,12 @@ function draw() {
   // Task 4: Grid of Circles
   let circleDiameter = 30;
   let numCircles = 5;
-  let totalWidth =numCircles * circleDiameter;
-  let startX = (Width - totalWidth) / 2 +cicleDiameter / 2;
-  let startY = (Height - totalWidth) / 2 +cicleDiameter / 2;
-  for (let row = 0; row < numCircles; row++){
-    let rowY = startY + (circleDiameter * row);
-    for(let i = 0; i <numCircles; i++){
-      let x = startX + i * circleDiameter;
-      ellipse(x,rowY,circleDiameter,circleDiameter);
-    }
-  }
+  let totalWidth = numCircles * circleDiameter;
+  // Calculate starting x for centering
+   let startX = (width - totalWidth) / 2 + circleDiameter / 2;
+
+   for (let i = 0; i < numCircles; i++) {
+        let x = startx + i * circleDiameter;
+        ellipse(x, height / 2, circleDiameter, circleDiameter);
+   }
 }
