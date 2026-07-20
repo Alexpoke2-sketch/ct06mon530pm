@@ -10,7 +10,7 @@ function draw() {
     // }  
 
     //Task 1: Random Colour Preview
-    
+    CSSNumericValue()
 }
 function mousePressed(){
     shapeColour = random(0,255);
