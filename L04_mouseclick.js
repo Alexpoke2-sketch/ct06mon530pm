@@ -9,7 +9,8 @@ function draw() {
     //     circle(mouseX ,mouseY, 30);
     // }  
 
-    //Task 1: Ran
+    //Task 1: Random Colour Preview
+    
 }
 function mousePressed(){
     shapeColour = random(0,255);
