@@ -16,7 +16,7 @@ function draw() {
     triangle(x1,y1,x2,y2,x3,y3);
 }
 function mouseMoved(){
-    ellipse
+    ellipse(mouseX,mouseY,)
 }
 function mousePressed(){
     shapeColour = color(random(0,255),random(255),random(255));
