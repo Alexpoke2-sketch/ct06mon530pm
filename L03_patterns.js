@@ -42,7 +42,7 @@ function draw() {
   let numCircle = 5;
   let totalWidth = numCircle * diameter;
   let startX = diameter/2
-  for (let i = 0; i < numCircles; i++) {
+  for (let i=0; i < numCircles; i++) {
       let x = startx + i * circleDiameter;
       ellipse(x, height / 2, circleDiameter, circleDiameter);
    }
