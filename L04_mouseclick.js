@@ -13,7 +13,7 @@ function draw() {
     //Task 1: Random Colour Preview
     fill(shapeColour)
     // circle(200,200,300)
-    tr
+    triangle()
 }
 function mousePressed(){
     shapeColour = color(random(0,255),random(255),random(255));
