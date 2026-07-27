@@ -1,5 +1,6 @@
 let showCircle = false;
-let showTriangle =
+let showTriangle = false;
+let show
 function setup(){
     createCanvas(800,400);
 }
