@@ -1,4 +1,4 @@
-let rectsizee = 50;
+let showCircle = false;
 
 function setup(){
     createCanvas(800,400);
