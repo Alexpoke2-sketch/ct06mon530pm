@@ -8,6 +8,7 @@ function setup(){
 function draw(){
     background(220);
     if(showCircle){
+        fill()
         circle(width/2,height/2,100);
     }
     if(showTriangle){
