@@ -43,5 +43,8 @@ function draw(){
         }else(
             fill(0)
         )
+        if(key==='+'){
+            
+        }
     }
 }
