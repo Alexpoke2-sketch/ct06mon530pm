@@ -14,7 +14,7 @@ function draw(){
         triangle(width,height,width/2,height/2,100,100)
     }
     if(showSquare){
-        
+        square ()
     }
 }
 function keyPressed(){
