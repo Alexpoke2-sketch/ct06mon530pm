@@ -39,7 +39,8 @@ function draw(){
         }else if(key === 'b'){
             fill(0,0,255)
         }else if(key === 'y'){
-            fill()
+            fill(255,255,0);
+            
         }
     }
 }
