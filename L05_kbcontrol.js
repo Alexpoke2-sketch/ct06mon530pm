@@ -46,6 +46,7 @@ function draw(){
         if(key==='+'){
             size+=1;
         }else if (key==='-'){
+            size-=1;
             
         }
 
