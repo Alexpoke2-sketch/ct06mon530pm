@@ -34,6 +34,7 @@ function draw(){
 // function keyReleased(){
     background(220);
     if(showCircle){
+        if(key === 'g');
         
     }
 }
