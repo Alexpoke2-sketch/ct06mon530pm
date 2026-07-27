@@ -44,7 +44,7 @@ function draw(){
             fill(0)
         )
         if(key==='+'){
-            
+            size+=1;
         }
     }
 }
