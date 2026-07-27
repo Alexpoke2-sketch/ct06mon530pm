@@ -13,6 +13,9 @@ function draw(){
     if(showTriangle){
         triangle(width,height,width/2,height/2,100,100)
     }
+    if(showSquare){
+        
+    }
 }
 function keyPressed(){
     if(key === 'c'){
