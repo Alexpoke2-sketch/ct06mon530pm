@@ -13,5 +13,5 @@ function draw(){
 // function keyReleased(){
 //     rectsize = 50;
 // }
-
+background(220)
 }
