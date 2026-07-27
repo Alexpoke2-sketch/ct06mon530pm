@@ -9,7 +9,8 @@ function draw(){
 }
 function keyPressed(){
     let num = random(5,20);
-    let size
+    let size = random(5,20);
+    
 }
 function keyReleased(){
     background(220);
