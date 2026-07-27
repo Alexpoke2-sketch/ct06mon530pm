@@ -14,5 +14,5 @@ function draw(){
 //     rectsize = 50;
 // }
 background(220);
-circle()
+circle(random())
 }
