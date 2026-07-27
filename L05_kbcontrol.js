@@ -1,4 +1,4 @@
-let rectsize = 50;
+let rectsizee = 50;
 
 function setup(){
     createCanvas(800,400);
