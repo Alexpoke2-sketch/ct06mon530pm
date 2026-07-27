@@ -35,8 +35,7 @@ function draw(){
     background(220);
     if(showCircle){
         if(key === 'g'){
-            FileList(0,255,0);
-            
+            fill(0,255,0);
         }
     }
 }
