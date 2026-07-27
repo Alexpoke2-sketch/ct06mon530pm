@@ -54,4 +54,6 @@ function draw(){
     }
 
 }
-function keyPressed(){}
+function keyPressed(){
+    console.log("key:")
+}
