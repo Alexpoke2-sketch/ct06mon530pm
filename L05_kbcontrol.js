@@ -7,7 +7,7 @@ function draw(){
     background(220);
     rect(width/2,height/2,rectsize,rectsize)
 }
-function KeyPressed(){
+function keyPressed(){
     rectsize = 100;
 }
 function keyReleased(){
