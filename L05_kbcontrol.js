@@ -28,3 +28,6 @@ function keyPressed(){
         showSquare = !showSquare
     }
 }
+function keyReleased(){
+    
+}
