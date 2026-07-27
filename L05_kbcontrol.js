@@ -11,7 +11,7 @@ function draw(){
         circle(width/2,height/2,100);
     }
     if(showTriangle){
-        triangle(width,height,width/2,height/2,width/2,height/2)
+        triangle(width,height,width/2,height/2,width/3,height/3)
     }
 }
 function keyPressed(){
