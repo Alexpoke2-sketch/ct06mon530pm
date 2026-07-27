@@ -6,11 +6,11 @@ function setup(){
 function draw(){
     background(220);
     if(showcircle){
-        circle()
+        circle(width/2,height/2,100);
     }
 }
 function keyPressed(){
     if(key === 'c'){
-        CSSNumericValue(width/2,height/2,100);
+        
     }
 }
