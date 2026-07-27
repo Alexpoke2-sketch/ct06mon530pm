@@ -44,5 +44,5 @@ function mouseDragged(){
     circle(mouseX + random(-20,20),mouseY + random(-20,20),size);
 }
 function mouseReleased(){
-    
+    background(220);
 }
