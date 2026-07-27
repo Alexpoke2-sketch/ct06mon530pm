@@ -19,6 +19,6 @@ function keyPressed(){
         showCircle = !showCircle;
     }
     if(key === 't'){
-        
+        showTriangle = !showTriangle
     }
 }
