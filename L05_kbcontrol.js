@@ -12,9 +12,11 @@ function draw(){
         circle(width/2,height/2,100);
     }
     if(showTriangle){
+        fill(random(255),random(255),random(255))
         triangle(width,height,width/2,height/2,100,100)
     }
     if(showSquare){
+        fill(random(255),random(255),random(255))
         rect(width/2,height/2,100,100);
     }
 }
