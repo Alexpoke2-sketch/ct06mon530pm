@@ -1,10 +1,10 @@
-let shapeColour = 'blue';
-let x1,y1,x2,y2,x3,y3;
-function setup() {    
-    createCanvas(400, 400);
-    background(220);
-}
-function draw() {
+// let shapeColour = 'blue';
+// let x1,y1,x2,y2,x3,y3;
+// function setup() {    
+//     createCanvas(400, 400);
+//     background(220);
+// }
+// function draw() {
     // for (let i=0; i <5;i++) {
     //     fill(shapeColour);
     //     circle(mouseX ,mouseY, 30);
@@ -28,8 +28,19 @@ function draw() {
 //     y3 = random(400);
 // }
 // function mouseReleased(){
-//     shapeColour = 'white';
-   function mouseDragged(){
-    
-   }
+//     shapeColour = 'white"
+
+
+function setup(){
+    createCanvas(600,400);
+    background(220);
+}
+function draw(){
+
+}
+function mouseDragged(){
+    let size = random(5,20);
+    fill(random(255),random(255),random(255));
+    circle(mouseX + random(-20,20),mouseY + random(-20,20),size);
+
 }
