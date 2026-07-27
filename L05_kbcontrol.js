@@ -10,7 +10,9 @@ function draw(){
     if(showCircle){
         circle(width/2,height/2,100);
     }
-    if(showTriangle){}
+    if(showTriangle){
+        triangl
+    }
 }
 function keyPressed(){
     if(key === 'c'){
