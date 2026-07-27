@@ -36,6 +36,6 @@ function draw(){
     if(showCircle){
         if(key === 'g'){
             fill(0,255,0);
-        }
+        }else if(key === 'b')
     }
 }
