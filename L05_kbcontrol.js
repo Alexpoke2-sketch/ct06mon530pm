@@ -35,7 +35,7 @@ function draw(){
     background(220);
     if(showCircle){
         if(key === 'g'){
-            i
+            fill
         }
     }
 }
