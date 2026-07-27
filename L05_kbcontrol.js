@@ -48,8 +48,10 @@ function draw(){
         }else if (key==='-'){
             size-=1
         }else{
-            
+
         }
 
     }
+
 }
+function keyPressed(){}
