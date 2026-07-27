@@ -9,6 +9,6 @@ function draw(){
 }
 function keyPressed(){
     if(key === 'c'){
-        CSSNumericValue(width/2,height/2)
+        CSSNumericValue(width/2,height/2,100);
     }
 }
