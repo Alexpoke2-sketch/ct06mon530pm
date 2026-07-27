@@ -37,11 +37,11 @@ function draw(){
         if(key === 'g'){
             fill(0,255,0);
         }else if(key === 'b'){
-            fill(0,0,255)
+            fill(0,0,255);
         }else if(key === 'y'){
             fill(255,255,0);
         }else(
-            fill
+            fill(0)
         )
     }
 }
