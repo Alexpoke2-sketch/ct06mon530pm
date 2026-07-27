@@ -25,6 +25,6 @@ function keyPressed(){
         showTriangle = !showTriangle
     }
     if(key === 's'){
-        showSquare = !
+        showSquare = !showSquare
     }
 }
