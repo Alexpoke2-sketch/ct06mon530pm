@@ -8,7 +8,7 @@ function draw(){
     rect(width/2,height/2,rectsize,rectsize)
 }
 function keyPressed(){
-    rectsize = 100;
+    let num = random;
 }
 function keyReleased(){
     background(220);
