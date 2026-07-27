@@ -5,7 +5,9 @@ function setup(){
 }
 function draw(){
     background(220);
-    rect(width/2,height/2,rectsize,rectsize)
+    if(showcircle){
+        
+    }
 }
 function keyPressed(){
     if(key === 'c'){
