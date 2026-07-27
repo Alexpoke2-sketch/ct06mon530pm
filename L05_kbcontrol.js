@@ -1,6 +1,6 @@
-let showCircle = false;
-let showTriangle = false;
-let showSquare = false;
+// let showCircle = false;
+// let showTriangle = false;
+// let showSquare = false;
 
 function setup(){
     createCanvas(800,400);
@@ -32,5 +32,5 @@ function draw(){
 //     }
 // }
 // function keyReleased(){
-//     background(220);
+
 }
