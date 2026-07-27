@@ -38,6 +38,8 @@ function draw(){
             fill(0,255,0);
         }else if(key === 'b'){
             fill(0,0,255)
+        }else if(key === 'y'){
+            
         }
     }
 }
