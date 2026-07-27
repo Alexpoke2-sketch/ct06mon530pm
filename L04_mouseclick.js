@@ -11,22 +11,22 @@ function draw() {
     // }  
 
     //Task 1: Random Colour Preview
-    fill(shapeColour)
+    // fill(shapeColour)
     // circle(200,200,300)
-    triangle(x1,y1,x2,y2,x3,y3);
-}
-function mouseMoved(){
-    ellipse(mouseX,mouseY,20,10)
-}
-function mousePressed(){
-    shapeColour = color(random(0,255),random(255),random(255));
-    x1 = random(400);
-    y1 = random(400);
-    x2 = random(400);
-    y2 = random(400);
-    x3 = random(400);
-    y3 = random(400);
-}
-function mouseReleased(){
-    shapeColour = 'white';
+//     triangle(x1,y1,x2,y2,x3,y3);
+// }
+// function mouseMoved(){
+//     ellipse(mouseX,mouseY,20,10)
+// }
+// function mousePressed(){
+//     shapeColour = color(random(0,255),random(255),random(255));
+//     x1 = random(400);
+//     y1 = random(400);
+//     x2 = random(400);
+//     y2 = random(400);
+//     x3 = random(400);
+//     y3 = random(400);
+// }
+// function mouseReleased(){
+//     shapeColour = 'white';
 }
