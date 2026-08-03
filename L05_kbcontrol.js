@@ -1,7 +1,7 @@
 let showCircle = false;
 let showTriangle = false;
 let showSquare = false;
-Le
+let circleColor =
 
 function setup(){
     createCanvas(800,400);
