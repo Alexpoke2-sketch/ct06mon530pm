@@ -5,7 +5,7 @@ let showSquare = false;
 function setup(){
     createCanvas(800,400);
 }
-function draw(){
+//function draw(){
 //     background(220);
 //     if(showCircle){
 //         fill(random(255),random(255),random(255))
@@ -31,7 +31,7 @@ function draw(){
 //         showSquare = !showSquare
 //     }
 // }
-// function keyReleased(){
+function keyReleased(){
     background(220);
     if(showCircle){
         if(key === 'g'){
@@ -47,13 +47,16 @@ function draw(){
             size+=1;
         }else if (key==='-'){
             size-=1
-        }else{
-
+        }else if (keyCode === 38){
+            fill(0,0,0)
+        }else if (keycode === 40){
+            fill(255,255,255)
         }
 
     }
 
 }
 function keyPressed(){
-    console.log("key:")
+    console.log("key:", key);
+    console.log("keyCode:", keyCode);
 }
