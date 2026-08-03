@@ -51,7 +51,9 @@ function keyPressed(){
         fill(255,0,0);
     }else if(keycode === 87){
         fill(255,255,255);
-    }else if (keCode === 6)
+    }else if (keCode === 71){
+        fill()
+    }
     
     console.log("key:",key);
     console.log("keyCode:",keyCode);
