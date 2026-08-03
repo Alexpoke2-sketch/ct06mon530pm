@@ -41,6 +41,7 @@ function keyReleased(){
 
 }
 function keyPressed(){
+    if(key)
     console.log("key:", key);
     console.log("keyCode:", keyCode);
 }
