@@ -54,7 +54,7 @@ function keyPressed(){
     }else if (keCode === 71){
         fill(0,255,0);
     }else{
-        
+        fill(255,255,0)
     }
     
     console.log("key:",key);
