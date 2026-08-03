@@ -36,7 +36,7 @@ function keyReleased(){
     if(showCircle){
         background(220);
         fill(circlecolour,0,0);
-        circle(width/2,height/2,100)
+        circle(width/2,height/2,100);
     }
 
 }
