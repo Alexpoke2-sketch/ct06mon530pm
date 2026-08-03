@@ -48,7 +48,8 @@ function keyPressed(){
     //     circleColor= 200;
     // }
     if(keyCode === 82){
-        fill
+        fill(255,0,0);
+        
     }
     
     console.log("key:",key);
