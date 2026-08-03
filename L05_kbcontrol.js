@@ -34,8 +34,8 @@ function setup(){
 function keyReleased(){
     background(220);
     if(showCircle){
-        background(220)
-        fill(circlecolour,0,)
+        background(220);
+        fill(circlecolour,0,0);
 
     }
 
