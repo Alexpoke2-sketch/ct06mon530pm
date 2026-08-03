@@ -35,7 +35,7 @@ function keyReleased(){
     background(220);
     if(showCircle){
         background(220)
-        fill ()
+        fill(circlecolour)
 
     }
 
