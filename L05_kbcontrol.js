@@ -49,8 +49,7 @@ function keyPressed(){
     // }
     if(keyCode === 82){
         fill(255,0,0);
-        
-    }
+    }else if()
     
     console.log("key:",key);
     console.log("keyCode:",keyCode);
