@@ -47,7 +47,7 @@ function keyPressed(){
     // }else{
     //     circleColor= 200;
     // }
-    if(key)
+    if(keyCode === 82);
     
     console.log("key:",key);
     console.log("keyCode:",keyCode);
