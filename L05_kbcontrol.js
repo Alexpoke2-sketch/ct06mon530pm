@@ -44,7 +44,7 @@ function keyPressed(){
     if(keyCode === 38){
         circleColour = 255;
     }else if(KeyCode === 40){
-        
+        circleColour = 0;
     }
     
     console.log("key:",key);
