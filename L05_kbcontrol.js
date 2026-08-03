@@ -1,7 +1,7 @@
 let showCircle = false;
 let showTriangle = false;
 let showSquare = false;
-let circleColor =
+let circleColor = 0;
 
 function setup(){
     createCanvas(800,400);
@@ -36,7 +36,7 @@ function keyReleased(){
     background(220);
     if(showCircle){
         background(220);
-        fill(circlecolour,0,0);
+        fill(circlecolor,0,0);
         circle(width/2,height/2,100);
     }
 
