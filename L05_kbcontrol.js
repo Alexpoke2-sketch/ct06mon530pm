@@ -34,24 +34,7 @@ function setup(){
 function keyReleased(){
     background(220);
     if(showCircle){
-        if(key === 'g'){
-            fill(0,255,0);
-        }else if(key === 'b'){
-            fill(0,0,255);
-        }else if(key === 'y'){
-            fill(255,255,0);
-        }else(
-            fill(0)
-        )
-        if(key==='+'){
-            size+=1;
-        }else if (key==='-'){
-            size-=1
-        }else if (keyCode === 38){
-            fill(0,0,0)
-        }else if (keycode === 40){
-            fill(255,255,255)
-        }
+        
 
     }
 
