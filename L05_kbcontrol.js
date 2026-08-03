@@ -40,13 +40,14 @@ function keyReleased(){
 
 }
 function keyPressed(){
-    if(keyCode === 38){
-        circleColor = 255;
-    }else if(keyCode === 40){
-        circleColor = 0;
-    }else{
-        circleColor= 200;
-    }
+    // if(keyCode === 38){
+    //     circleColor = 255;
+    // }else if(keyCode === 40){
+    //     circleColor = 0;
+    // }else{
+    //     circleColor= 200;
+    // }
+    
     
     console.log("key:",key);
     console.log("keyCode:",keyCode);
