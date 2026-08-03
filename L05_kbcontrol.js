@@ -51,7 +51,7 @@ function keyPressed(){
         fill(255,0,0);
     }else if(keycode === 87){
         fill(255,255,255);
-    }else if (keCode === 71){
+    }else if (keyCode === 71){
         fill(0,255,0);
     }else{
         fill(255,255,0)
