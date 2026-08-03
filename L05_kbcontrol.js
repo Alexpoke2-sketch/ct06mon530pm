@@ -35,8 +35,8 @@ function setup(){
 function keyReleased(){
     background(220);
         
-        fill(circleColor,0,0);
-        circle(width/2,height/2,100);
+    fill(circleColor,0,0);
+    circle(width/2,height/2,100);
 
 }
 function keyPressed(){
