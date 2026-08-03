@@ -1,6 +1,7 @@
 let showCircle = false;
 let showTriangle = false;
 let showSquare = false;
+Le
 
 function setup(){
     createCanvas(800,400);
@@ -46,7 +47,7 @@ function keyPressed(){
     }else if(KeyCode === 40){
         circleColour = 0;
     }else{
-        cirColor= 200;
+        circleColor= 200;
     }
     
     console.log("key:",key);
