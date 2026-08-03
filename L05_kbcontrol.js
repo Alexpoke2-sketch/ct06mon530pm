@@ -43,9 +43,9 @@ function keyReleased(){
 }
 function keyPressed(){
     if(keyCode === 38){
-        circleColour = 255;
+        circleColor = 255;
     }else if(KeyCode === 40){
-        circleColour = 0;
+        circleColor = 0;
     }else{
         circleColor= 200;
     }
